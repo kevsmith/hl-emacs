@@ -1,0 +1,12 @@
+To use these files in your Emacs config drop the following two
+lines in your .emacs file:
+
+(add-to-list 'load-path "<path_to_checked_out_emacs_files>")
+(require 'my_config)
+
+Obviously, you'll need to replace <path_to_checked_out_emacs_files>
+with the actual path to this code tree :)
+
+Note: If you're using Aquamacs Emacs its version of .emacs is:
+
+~/Library/Preferences/Aquamacs Eamcs/customizations
